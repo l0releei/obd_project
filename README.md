@@ -2,7 +2,7 @@
 
 ## System of organization and management of expert surveys
 
-## Contributors
+### Contributors
 
 - Gladkov Danіil | Gmail: gladkovdaniil.kpi.io92@gmail.com  | Telegram: @skarsgardd |
 - Karnaukhova Anastasia | Gmail: anastasiz.bbq@gmail.com | Telegram: @YummySatan |
