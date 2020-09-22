@@ -1,8 +1,8 @@
-<h1 align="center"> NukedSun. Аналіз предметної області</h1>
+# NukedSun. Аналіз предметної області
 
-<h2 align="center">Система організації та управління експертними опитуваннями</h2>
+## Система організації та управління експертними опитуваннями
 
-<img src="https://digitaluncovered.com/wp-content/uploads/2017/12/YouTube-Channel-Art.png" alt="Something wrong...">
+
 
 ## Вступ
            
