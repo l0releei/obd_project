@@ -1,14 +1,15 @@
 # Система організації та управління експертними опитуваннями
 
 ## Вступ
-<ul style="list-style-image: url(https://img.icons8.com/pastel-glyph/2x/search--v2.png)>
+<style="list-style-image: url(https://img.icons8.com/pastel-glyph/2x/search--v2.png)>
+           
 - [Основні визначення](#1)
 - [Підходи та способи вирішення завдання](#2)
 - [Порівняльна характеристика існуючих засобів вирішення завдання](#3)
 - [Висновки](#4)
 - [Посилання](#5)
 
-
+</style>
 
 
 
