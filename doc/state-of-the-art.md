@@ -8,7 +8,7 @@
 - [Висновки](#4)
 - [Посилання](#5)
 
-<ul style="list-style-image: url(https://img.icons8.com/pastel-glyph/2x/search--v2.png);">
+<ul style="list-style-image: url="https://img.icons8.com/pastel-glyph/2x/search--v2.png")">
    <li>Lorem ipsum dolor sit amet</li>
    <li>Consectetuer adipiscing elit</li>
    <li>Sed diem nonummy nibh euismod</li>
