@@ -1,14 +1,6 @@
 # Система організації та управління експертними опитуваннями
 
 ## Вступ
-<ul style="list-style-image: square">
-    <li>Lorem ipsum dolor sit amet</li>
-   <li>Consectetuer adipiscing elit</li>
-   <li>Sed diem nonummy nibh euismod</li>
-   <li>Tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis 
-   enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis 
-   nisl ut aliquip ex ea commodo consequat.</li>
-</ul>
            
 - [Основні визначення](#1)
 - [Підходи та способи вирішення завдання](#2)
@@ -16,10 +8,8 @@
 - [Висновки](#4)
 - [Посилання](#5)
 
-
-
-
-## <a name="1">Основні визначення</a>
+<a name="1"> </a>
+## Основні визначення
 
 **Система** - сукупність елементів, що знаходяться у відносинах і зв'язках один з одним, яка утворює певну цілісність, єдність. Серед се основних ознак слід назвати: множинність елементів, цілісність і єдність між ними, наявність певної структури.
 
