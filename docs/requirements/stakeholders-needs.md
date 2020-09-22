@@ -38,7 +38,7 @@
 
 В загальному випадку база даних містить схеми, таблиці, подання, збережені процедури та інші об'єкти. Дані у базі організовують відповідно до моделі організації даних. Таким чином, сучасна база даних, крім саме даних, містить їх опис та може містити засоби для їх обробки.
 
-**Більше інформації в документі: [Аналіз предметної області](https://github.com/l0releei/NakedSun/blob/master/docs/requirements/stakeholders-needs.md)**
+**Більше інформації в документі: [Аналіз предметної області](https://github.com/l0releei/NakedSun/blob/master/docs/requirements/state-of-the-art.md)**
 
 <a name="5"> </a>
 
@@ -54,7 +54,7 @@
 
 ***Посилання документи:***
 
-- [Аналіз предметної області](https://github.com/l0releei/NakedSun/blob/master/docs/requirements/stakeholders-needs.md)
+- [Аналіз предметної області](https://github.com/l0releei/NakedSun/blob/master/docs/requirements/state-of-the-art.md)
 
 <a name="6"> </a>
 
