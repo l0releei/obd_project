@@ -1,6 +1,6 @@
-# NakedSun
+# NakedSun poject
 
-## System of organization and management of expert surveys
+## Система організації та управління експертними опитуваннями
 
 ### Contributors
 
