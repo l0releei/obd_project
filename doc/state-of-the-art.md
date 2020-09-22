@@ -1,7 +1,7 @@
 # Система організації та управління експертними опитуваннями
 
 ## Вступ
-<ul style="list-style-image: url(https://img.icons8.com/pastel-glyph/2x/search--v2.png)">
+<ul style="list-style-image: url(https://i.pinimg.com/originals/ee/31/7f/ee317f106d13672c84d1b8b3d544ddd5.gif)">
     <li>Lorem ipsum dolor sit amet</li>
    <li>Consectetuer adipiscing elit</li>
    <li>Sed diem nonummy nibh euismod</li>
