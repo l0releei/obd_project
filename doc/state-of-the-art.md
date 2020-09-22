@@ -2,7 +2,7 @@
 
 <h2 align="center">Система організації та управління експертними опитуваннями</h2>
 
-<img src="https://digitaluncovered.com/wp-content/uploads/2017/12/YouTube-Channel-Art.png" alt="Something wrong...#>
+<img src="https://digitaluncovered.com/wp-content/uploads/2017/12/YouTube-Channel-Art.png" alt="Something wrong...">
 
 ## Вступ
            
