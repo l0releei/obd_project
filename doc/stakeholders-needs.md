@@ -57,7 +57,7 @@
 - Аналітик - людина або группа людей, які відповідають за створення анкет і опрацювання результатів експерних опитувань.
 - Експерт-Респондент - людина або группа людей, що займається експертизою відповідей до анкет сценарію.
 
-![uml](https://github.com/l0releei/obd_project/blob/l0releei/src/main_scenario.puml)
+![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/blob/l0releei/src/main_scenario.puml)
 
 ***ID: NakedSun Project: #01 Scenario: #01 Version: 1.1
 NSP.01.01.v1.1***
