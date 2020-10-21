@@ -277,6 +277,7 @@
  - ER_EX.001.001 Пройти опитування неможливо.
  
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
+
 ![EX.001_Diagram](http://www.plantuml.com/plantuml/png/DOwz3S8m58JxDqKa1g0dJMQWeqIAEqCG1D6uC46fgQ02iGAAOXH-OgzmRoEUOkXyd-_TNROfv-jokz1aSCABzmXmRBaoDFmGJN1Z2yyrF5eyuD2ZvsCYCg3ZYWzeS8ym5VTLH2iv7Tv_B5xnMK6VYEIkJj3mMH83_E_by4mJCgEfoiSpfNMnCxWCVIusipKaiueLPMgPo-Wl)
 
 1. Проходження опитування (можливе ER_EX.001.001);
