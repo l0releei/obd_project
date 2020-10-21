@@ -182,7 +182,7 @@
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![MG.003_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/MG.003_Diargam.puml)
+![MG.003_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/MG.003_Diagram.puml)
 
 1. Менеджер  надсилає опитування Експерту;
 2. Менеджер отримує готові відповіді (ER_MG.003.001).
