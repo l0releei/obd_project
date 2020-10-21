@@ -3,7 +3,7 @@
 <a name="1"> </a>
 
 ## Вступ
-![try](http://www.plantuml.com/plantuml/png/main_diagram.puml)
+![try](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/doc/use%20cases/main_diagram.puml)
 Документ містить опис запитів зацікавлених осіб, щодо проекту cистеми організації та управління експертними опитуваннями, що перебуває в розробці.
 
 <a name="2"> </a>
