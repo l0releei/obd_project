@@ -57,7 +57,7 @@
 - Аналітик - людина або группа людей, які відповідають за створення анкет і опрацювання результатів експерних опитувань.
 - Експерт-Респондент - людина або группа людей, що займається експертизою відповідей до анкет сценарію.
 
-![uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/blob/l0releei/src/main_scenario.puml)
+![uml](http://www.plantuml.com/plantuml/png/jPH1Ji9G48RtdEA5lHp0XS4Gbzx0JQF43HJJbaHtKA9nGSG5oiR4ApGDq0fIhZ1p8_ytpuafOiD6afANwVpV_3Fpe1b6NX3rkvsQTndr0bEdDrhG1i-SbhJWGTrueJdtVE-w7TGCFfhtZAo4rlpACUMqahnJt-lSXL4fxuLMFAIjPN4iMMUtD-sWd3G3wfCAIW5LMAiVHhtkTrNvqeWvEb5BvjZGb1AU6ih0I64x0MF34wlGB0ZKcnMyMpFIuZwXrDBqil97cgBl0K-SNBslyK8G5xwnqp4INoAUYs38CO-Dw6LoLieFU35hGD7Y68m2s2TW8TnI3i68KdNMs7McxVtgYOSASzi4lWpSFoEt6U1a8Lke2txa4O2k7HUvfq9kXpPRmHPWjLKvPb2kUGpJ2Pxyy4hLc_wVKihVAMKnb0ecbqLRaIxQyb8Svc0MxeHI7mWVl5FAh8vZOn7xUi4rF6n2-aEgB9BzKOBoHgtPzg_md_45)
 
 ***ID: NakedSun Project: #01 Scenario: #01 Version: 1.1
 NSP.01.01.v1.1***
