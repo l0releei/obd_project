@@ -1,0 +1,17 @@
+@startuml
+actor "Менеджер" as Manager
+    actor "Аналітик" as Analyst
+    actor "Експерт" as Expert
+    actor "Замовник" as Customer
+    
+    Customer -> Manager : Дає завдання
+    Manager -> Analyst : Передає завдання 
+    Analyst -> Analyst :  Перевіряє замовлення\n на можливість реалізації.\n Cтворює опитування.
+    Analyst -> Manager : Передає створене\n опитування
+    Manager -> Expert : Запрошує на проходження\n опитування
+    Expert -> Manager : Передає результати проходження\n опитування
+    Manager -> Analyst : Передає результати проходження\n опитування
+    Analyst -> Analyst : Проводить аналіз\n відповідей\n 
+    Analyst -> Manager : Передає звіт по результатам\n опитування
+    Manager -> Customer : Передає звіт з результатами.
+@enduml
