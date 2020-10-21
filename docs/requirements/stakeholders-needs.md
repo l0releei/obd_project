@@ -205,7 +205,7 @@
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![MG.004_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/MG.004_Diargam.puml)
+![MG.004_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/MG.004_Diagram.puml)
 
 1. Менеджер  надсилає відповіді Експерта Аналітику;
 2. Менеджер отримує готовий звіт з результатами опитування (можливе ER_MG.003.001).
