@@ -3,7 +3,7 @@
 <a name="1"> </a>
 
 ## Вступ
-![try](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/doc/use case/Main.puml)
+
 Документ містить опис запитів зацікавлених осіб, щодо проекту cистеми організації та управління експертними опитуваннями, що перебуває в розробці.
 
 <a name="2"> </a>
@@ -75,7 +75,7 @@
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![Main.000_Diagram](http://www.plantuml.com/plantuml/png/jPInJi9G58Ptdk86Pt5tC1ZYwE9cuj98urAAQKlKJKeq3aGS41OJuniq3T0AKbxXd3VoloVS6f0I72GfQUxjzvtptrEe-e7b1Qs6Kx8kWwQdolH6OvhZ6j64ndnVLfQlJYtNkh8zjNTcrm_ERSTftfGKFePv0H7HZ0SSKafJOOvToxdpWqBcbQRSfeMkmQ4G9xVNjbSC357YYpAAQPuNgRNyeDdOq9byvRlxHtc4GqLzYhYlA84lHim8lZdt136FWSW3W7ZNNSgP59BcyLNo1urvWA0zmVCWCso8ui9L-WYLh4-mdWhGvf2xIdWvNeto8pQ65H0r3k78e7s65k22KW0TYardbRNEJBpVcRXjP2JZXtwJSEsCpCYWqzDPWCxuYJiGIfpboWDbyZhbOOlT8jpUgjmc86VSHTCHhlHlbGec_L-bZ7-zbDPGB9fK1gqXCsZjYt4pWZDRtetfKoz_hCuzqRiSgfrddHDQlIaZNi_TJixymhOMIGfAK5efLMstZZ-VRm00)
+![Main.000_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/Main.000_Diagram.puml)
 
 1. Замовник дає завдання;
 2. Менеджер передає замовлення аналітику;
@@ -108,7 +108,7 @@
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![CS.001_Diagram](http://www.plantuml.com/plantuml/png/TL0xJiGm5Enz2aiSW9uqUmOwIgHD5rW4YsXSR9mMAH92f46YuG1HI8WXiRd2l1inUcv0WiBoqtncdhsvsPzVxsylAkFGeSUAX04H0P_E62ND2HuGf9Q6J2-FLceEIJhBAwZZ3Q4mxkYqt1wVbLMrktDuneJ8C-8TanmSKrx0WT0WJtAGbacCp8N1OlxTZhwWvHM9bbKQYX6p51yMNrWeZrn5F36Aj2vAQv781l5vtGmMFzf7VGDcNSDpi0hFr2zoBvuq3rO4rf1YfxeqNz-Q_kxuvmTtLsPJNcxvnTy0)
+![CS.001_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/CS.001_Diagram.puml)
 
 1. Замовник висуває менеджеру свої вимоги;
 2. Менеджер перевіряє умови замовника (можливі ER_CS.001.001E, ЕR_CS.001.002 );
@@ -136,7 +136,7 @@
  
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![MG.001_Diagram](http://www.plantuml.com/plantuml/png/TOyn2W8n44NxEKN00zYxpPx1pbBOxLPNTCKcnMeEOBDe8tY568mkOdA6FpTo33OY5e7mt_p7JBvgfijcFQj8umYB9o8S0deyD562f0VZiXXEogggDnedU0HvLzpWkTKqmldzaSZnWLlUSwVOV4ozmlrR2vj9fODFOU0jxwHau1LSuXB22Z1Af14NH9amFnuscQ8_MzSBoijv8MUz0000)
+![MG.001_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/MG.001_Diagram.puml)
 
 1. Менеджер  перевіряє умови замовника (можливе ER_MG.001.001);
 2. Менеджер демонструе виконану роботу замовнику (можливе CS.001).
@@ -159,7 +159,7 @@
  
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![MG.002_Diargam](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuQfH3afDqOzCpSd9Bw-vCEV2rWjxWNZBXMqNjbvigE42g-EokZ3tmeOBMousNjXnOVU53HUdA5pO3XJO15It0QX-xyL-QwwQ2nCkx0LoTr-STh49g6vN3JPjco_i0yhk0shTgW2azb_OSR7fOZEG2pD7WOiBYpE0xiWlu798pKi1kXa0)
+![MG.002_Diargam](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/MG.002_Diargam.puml)
 
 1. Менеджер  надсилає завдання Замовника Аналітику;
 2. Менеджер отримує готове опитування (можливе ER_MG.002.001).
@@ -182,7 +182,7 @@
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![MG.003_Diagram](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuQfH3afDqOzCpSd9Bw-vCEV2rWjxWNZBXMqNjbvigE42g-EokZ3tmeOBMousNjXnOVU53HUdA5pOTs7_XHqNcousNzW4bDfxOU_5VckkcWjJB-m2gjeFqdongGQRnaqNfrtO0bIn3yAwECrQWOiBYyr0g_CBk1nIyrA0pWG0)
+![MG.003_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/MG.003_Diagram.puml)
 
 1. Менеджер  надсилає опитування Експерту;
 2. Менеджер отримує готові відповіді (ER_MG.003.001).
@@ -205,7 +205,7 @@
 
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![MG.004_Diagram](http://www.plantuml.com/plantuml/png/ROynJe0m68NtdgA91t2NXJEucRYOm8PW5EFI0N4rqS4mwHqQf5B1mXM-_qQskZAyvALz_vTy-LrxTTlUNrVAd9oNnUb5MLNDW-4THuYP-C99PzJVJftnWMMIHpmhLjuqemnCx6p_JGQDOucBFHrAZysKuPM0PPKXFdWMSqJwP9C-SV1yQsR6DB-iOzNIuPZbYLMU4pE57xncOyTB7xz6B84WBvbMwa0XEZGtAY_h8lh-0W00)
+![MG.004_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/MG.004_Diagram.puml)
 
 1. Менеджер  надсилає відповіді Експерта Аналітику;
 2. Менеджер отримує готовий звіт з результатами опитування (можливе ER_MG.003.001).
@@ -230,7 +230,7 @@
  
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![AL.001_Diagram](http://www.plantuml.com/plantuml/png/DOunZe9064Rx_nGaUu3jbuOpRBVb9j2X6CNOJ47m05ffOsAymMG2Ij31Axp_HWuarDzx-LwoAV_NvNQHY-68n_BKazPqz4QcJUI7AwrMjBYmLVJOY0SMHuF5u_KGSSRoOi3XwIOc3kPDQnp3QC_Wm9jEQztZPZkEn7pzPkdtNvRdnSvmcV2MXljuRIIq52j9icKQMZy0)
+![AL.001_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/AL.001_Diagram.puml)
 
 1. Перевірка завдання Замовника (можливе ER_AL.001.001);
 2. Створення опитування та його надсилання Менеджеру.
@@ -253,7 +253,7 @@
  
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![AL.002_Diagram](http://www.plantuml.com/plantuml/png/HOyzpe9048RxESKatm6-7XhEO6TYOm8TWb6CpHOghOasMjbuWmq1GHIymZitSXPDB2Rxyypxx4wmpAQBR3MBoU283XOFESiE3Lf30oFo-8TGCmfTIhpGVtSLxemJMjdgPIKRM9yyNDLIeDTZfU5E3emQXPDBpYuzINY0jUHgtckxTOKderVUk4Ors4_QPp9_eoZy7qTndAuDBiwhLUBc7ZMatqtd54H9gEEy0G00)
+![AL.002_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/AL.002_Diagram.puml)
 
 1. Аналіз відповідей Експера (можливе ER_AL.002.001);
 2. Створення звіту по результатам опитування та його надсилання Менеджеру.
@@ -278,7 +278,7 @@
  
 ***ОСНОВНИЙ СЦЕНАРІЙ:*** 
 
-![EX.001_Diagram](http://www.plantuml.com/plantuml/png/DOwz3S8m58JxDqKa1g0dJMQWeqIAEqCG1D6uC46fgQ02iGAAOXH-OgzmRoEUOkXyd-_TNROfv-jokz1aSCABzmXmRBaoDFmGJN1Z2yyrF5eyuD2ZvsCYCg3ZYWzeS8ym5VTLH2iv7Tv_B5xnMK6VYEIkJj3mMH83_E_by4mJCgEfoiSpfNMnCxWCVIusipKaiueLPMgPo-Wl)
+![EX.001_Diagram](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/master/src/uml/EX.001_Diagram.puml)
 
 1. Проходження опитування (можливе ER_EX.001.001);
 2. Надсилання отриманних відповідей Менеджеру.
