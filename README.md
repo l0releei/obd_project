@@ -1,3 +1,8 @@
+<p align="center"> 
+  
+ ![image](https://github.com/l0releei/obd_project/blob/master/src/img/NakesSun.jpg) 
+</p>
+
 # NakedSun 
 
 ## Система організації та управління експертними опитуваннями
