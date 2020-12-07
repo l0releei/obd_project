@@ -11,8 +11,8 @@
     Customer -l-> UC_CS_2
     
     usecase "<b>UC_CS_2.1</b>\nСворення облікового запису" as UC_CS_2.1
-    usecase "<b>UC_CS_2.2</b>\nСворення видалення запису" as UC_CS_2.2
-    usecase "<b>UC_CS_2.3</b>\nСворення редагування запису" as UC_CS_2.3
+    usecase "<b>UC_CS_2.2</b>\nВидалення облікового запису" as UC_CS_2.2
+    usecase "<b>UC_CS_2.3</b>\nРедагування облікового запису" as UC_CS_2.3
     
     UC_CS_2.1 .u.> UC_CS_2: extends
     UC_CS_2.2 .u.> UC_CS_2: extends
