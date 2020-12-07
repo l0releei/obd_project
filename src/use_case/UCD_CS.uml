@@ -1,0 +1,21 @@
+@startuml
+    right header
+        <font size=24 color=black>Package:<b> UCD_CS
+    end header
+
+    package UCD_CS_1.1 #Yellow {
+        usecase "<b>UC_1</b>\nВзаємодія з проектоми" as UC_CS_1 
+    }
+    
+    actor "Замовник" as Customer #Red/Yellow
+    Customer -l-> UC_CS_1
+    
+    usecase "<b>UC_CS_1.1</b>\nНадання завдання" as UC_CS_1.1
+    usecase "<b>UC_CS_1.2</b>\nМоніторинг статусу проекту" as UC_CS_1.2
+    usecase "<b>UC_CS_1.3</b>\nПрипинення проекту" as UC_CS_1.3
+    
+    UC_CS_1.1 .u.> UC_CS_1: extends
+    UC_CS_1.2 .u.> UC_CS_1: extends
+    UC_CS_1.3 .u.> UC_CS_1: extends
+    
+@enduml
