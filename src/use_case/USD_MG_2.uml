@@ -10,12 +10,12 @@
     actor "Менеджер" as Meneger #Red/Yellow
     Meneger -l-> UC_MG_2
     
-    usecase "<b>UC_MG_2.1</b>\nНадання завдання" as UC_MG_2.1
-    usecase "<b>UC_MG_2.2</b>\nМоніторинг статусу проекту" as UC_MG_2.2
-    usecase "<b>UC_MG_2.3</b>\nПрипинення проекту" as UC_MG_2.3
+    usecase "<b>UC_MG_2.1</b>\nПоширення опитування\n серед Експертів" as UC_MG_2.1
+    usecase "<b>UC_MG_2.2</b>\nОтримання звіту\n по результатам" as UC_MG_2.2
+
     
     UC_MG_2.1 .u.> UC_MG_2: extends
     UC_MG_2.2 .u.> UC_MG_2: extends
-    UC_MG_2.3 .u.> UC_MG_2: extends
+
     
 @enduml
