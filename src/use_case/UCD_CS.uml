@@ -1,6 +1,6 @@
 @startuml
     right header
-        <font size=24 color=black>Package:<b> UCD_2.0
+        <font size=24 color=black>Package:<b> UCD_2.0</b>
     end header
 
     package UCD_CS_1.1 #Yellow {
@@ -12,7 +12,7 @@
     
     usecase "<b>UC_CS_1.1</b>\nНадання завдання" as UC_CS_1.1
     usecase "<b>UC_CS_1.2</b>\nМоніторинг статусу проекту" as UC_CS_1.2
-    usecase "<b>UC_CS_1.3</b>\nПрипинення проекту" as UC_CS_1.3
+    usecase "<b>UC_CS_1.3</b>\nОтримання результату" as UC_CS_1.3
     
     UC_CS_1.1 .u.> UC_CS_1: extends
     UC_CS_1.2 .u.> UC_CS_1: extends
