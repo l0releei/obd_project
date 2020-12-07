@@ -1,6 +1,6 @@
 @startuml
     right header
-        <font size=24 color=black>Package:<b> UCD_2.0
+        <font size=24 color=black>Package:<b> UCD_2.1
     end header
 
     package UCD_CS_1.2 #Yellow {
