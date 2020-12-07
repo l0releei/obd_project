@@ -4,7 +4,7 @@
     end header
 
     package UCD_MG_2 #Yellow {
-        usecase "<b>UC_2</b>\nВзаємодія з Експертами" as UC_MG_2 
+        usecase "<b>UC_4</b>\nВзаємодія з Експертами" as UC_MG_2 
     }
     
     actor "Менеджер" as Meneger #Red/Yellow
