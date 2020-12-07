@@ -1,16 +1,16 @@
 @startuml
-  actor Експерт
-  actor Менеджер
-  actor Замовник
-  actor Аналітик
+  actor Експерт #Red/Yellow
+  actor Менеджер #Red/Yellow
+  actor Замовник #Red/Yellow
+  actor Аналітик #Red/Yellow
   
-  usecase "Надсилання завдання" as CS_1
-  usecase "Взаємодія з Замовником" as MG_1
-  usecase "Взаємодія з Аналітиком" as MG_2
-  usecase "Взаємодія з Експертом" as MG_3
-  usecase "Проходження опитувань" as EX_1
-  usecase "Аналіз опитування" as AL_1
-  usecase "Створення опитування" as AL_2
+  usecase "<b>UC_CS_1.1</b>\nВзаємодія з проєктом" as CS_1
+  usecase "<b>UC_MG_1.1</b>\nВзаємодія з Замовником" as MG_1
+  usecase "<b>UC_MG_1.2</b>\nВзаємодія з Аналітиком" as MG_2
+  usecase "<b>UC_MG_1.3</b>\nВзаємодія з Експертом" as MG_3
+  usecase "<b>UC_EX_1</b>\nПроходження опитувань" as EX_1
+  usecase "<b>UC_AL_1.1</b>\nАналіз опитування" as AL_1
+  usecase "<b>UC_AL_1.2</b>\nСтворення опитування" as AL_2
   
   
   Замовник -r-|> Менеджер
