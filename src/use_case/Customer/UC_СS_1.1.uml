@@ -1,0 +1,36 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #3492B4
+	FontColor #ffffff
+}
+
+|Замовник|
+start
+: Натискає кнопку "Сторити опитування";
+
+|#Red/Yellow|Система| 
+: Опрацьовує запит і повертає форму; 
+
+|Замовник|
+: Заповняє форму для створення опитування;
+: Натискає 'Відправити';
+note left
+	Можлива UC_CS.ER.1.1
+end note
+
+|Система|
+
+: Система обробляє данні;
+
+
+|Замовник|
+
+: Отримує повідомлення, що форма відправленна;
+
+
+stop;
+
+
+@enduml
