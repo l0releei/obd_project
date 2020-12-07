@@ -1,0 +1,22 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+
+
+|Аналітик| 
+start
+
+: У розділі "Мої Опитування" напроти потрібного
+опитування натиснув кнопку "Завершити";
+
+|#Red/Yellow|Система| 
+: Опрацьовує запит і надсилає повідомлення Менеджеру
+про закінчення створення опитування;
+stop;
+
+
+@enduml
