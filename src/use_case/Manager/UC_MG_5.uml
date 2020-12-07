@@ -1,0 +1,25 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+
+|#Red/Yellow|Система| 
+
+start
+|Менеджер| 
+: На Головній сторінці напроти нового опитування
+Натискає кнопу "Поділитися" і запрошує Єкспертів на
+проходження опитування;
+
+|#Red/Yellow|Система| 
+: Опрацьовує запит, відправляє запрошення Експертам;
+
+|Менеджер|
+: Отримує повідомлення "Опубліковано" та "Відправлено";
+stop;
+
+
+@enduml
