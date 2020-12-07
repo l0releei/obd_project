@@ -6,6 +6,7 @@
 <hr>
   
 ![UCD_CS](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/UCD_CS.uml)
+![UCD_CS_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/UCD_CS_2.uml)
 <hr>
 
 ![UCD_MG_1](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/USD_MG_1.uml)
