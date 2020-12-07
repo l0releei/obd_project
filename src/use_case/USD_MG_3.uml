@@ -1,10 +1,10 @@
 @startuml
     right header
-        <font size=24 color=black>Package:<b> UCD_2.3
+        <font size=24 color=black>Package:<b> UCD_2.4
     end header
 
     package UCD_MG_3 #Yellow {
-        usecase "<b>UC_3</b>\nВзаємодія з Замовником" as UC_MG_3 
+        usecase "<b>UC_5</b>\nВзаємодія з Замовником" as UC_MG_3 
     }
     
     actor "Менеджер" as Meneger #Red/Yellow
