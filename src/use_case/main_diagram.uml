@@ -4,14 +4,14 @@
   actor Замовник #Red/Yellow
   actor Аналітик #Red/Yellow
   
-  usecase "<b>UC_CS_1.1</b>\nВзаємодія з проєктом" as CS_1
-  usecase "<b>UC_CS_1.2</b>\nКерування обліковим записом" as CS_2  
-  usecase "<b>UC_MG_1.1</b>\nВзаємодія з Замовником" as MG_1
-  usecase "<b>UC_MG_1.2</b>\nВзаємодія з Аналітиком" as MG_2
-  usecase "<b>UC_MG_1.3</b>\nВзаємодія з Експертом" as MG_3
-  usecase "<b>UC_EX_1</b>\nПроходження опитувань" as EX_1
-  usecase "<b>UC_AL_1.1</b>\nРобота над опитуванням" as AL_1
-  usecase "<b>UC_AL_1.2</b>\nАналіз результатів опитування" as AL_2  
+  usecase "<b>UCD_CS_1.1</b>\nВзаємодія з проєктом" as CS_1
+  usecase "<b>UCD_CS_1.2</b>\nКерування обліковим записом" as CS_2  
+  usecase "<b>UCD_MG_1.1</b>\nВзаємодія з Замовником" as MG_1
+  usecase "<b>UCD_MG_1.2</b>\nВзаємодія з Аналітиком" as MG_2
+  usecase "<b>UCD_MG_1.3</b>\nВзаємодія з Експертом" as MG_3
+  usecase "<b>UCD_EX_1</b>\nПроходження опитувань" as EX_1
+  usecase "<b>UCD_AL_1.1</b>\nРобота над опитуванням" as AL_1
+  usecase "<b>UCD_AL_1.2</b>\nАналіз результатів опитування" as AL_2  
   
   Замовник -r-|> Менеджер
   Менеджер -u-|> Аналітик
