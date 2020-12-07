@@ -2,7 +2,7 @@
 skinparam ArchimateBackgroundColor #ffffff
 skinparam	shadowing false
 skinparam Note {
-	BackgroundColor #3492B4
+	BackgroundColor #B43434
 	FontColor #ffffff
 }
 
