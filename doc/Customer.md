@@ -83,7 +83,7 @@
 
 **ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_СS_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_4.uml)
+![UC_CS_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_4.uml)
 
 
 
