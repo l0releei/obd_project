@@ -37,6 +37,7 @@
 - UC_CS.ER.1.2 Менеджер ще не утвердив початок проекту
 
 **ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_СS_2](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_2.uml) 
 
 
@@ -58,6 +59,7 @@
 - UC_CS.ER.1.3 Проект ще не заверщенний
 
 **ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_СS_3](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_3.uml)
 
 
@@ -80,6 +82,7 @@
 - UC_CS.ER.1.6 Імейлу, який ввів замовник, уже відповідає обліковий запис
 
 **ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_СS_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_4.uml)
 
 
@@ -100,6 +103,7 @@
 - UC_CS.ER.1.7 Замовник відхилив видалення
 
 **ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_СS_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_6.uml)
 
 
@@ -123,6 +127,7 @@
 
 
 **ОСНОВНИЙ СЦЕНАРІЙ:***
+
 ![UC_СS_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_5.uml)
 
 
