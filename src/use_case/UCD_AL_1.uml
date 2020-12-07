@@ -3,19 +3,19 @@
         <font size=24 color=black>Package:<b> UCD_2.5
     end header
 
-    package UCD_MG_3 #Yellow {
-        usecase "<b>UC_5</b>\nВзаємодія з Замовником" as UC_MG_3 
+    package UCD_AL_1 #Yellow {
+        usecase "<b>UC_6</b>\nРобота над опитуванням" as UC_AL_1 
     }
     
-    actor "Менеджер" as Meneger #Red/Yellow
-    Meneger -l-> UC_MG_3
+    actor "Аналітик" as Analyst #Red/Yellow
+    Analyst -l-> UC_AL_1
     
-    usecase "<b>UC_MG_3.1</b>\nНадання завдання" as UC_MG_3.1
-    usecase "<b>UC_MG_3.2</b>\nМоніторинг статусу проекту" as UC_MG_3.2
-    usecase "<b>UC_MG_3.3</b>\nПрипинення проекту" as UC_MG_3.3
+    usecase "<b>UC_AL_1.1</b>\nАналіз опитування" as UC_AL_1.1
+    usecase "<b>UC_AL_1.2</b>\nСтворення завдання" as UC_AL_1.2
+    usecase "<b>UC_AL_1.3</b>\nВідправка опитування" as UC_AL_1.3
     
-    UC_MG_3.1 .u.> UC_MG_3: extends
-    UC_MG_3.2 .u.> UC_MG_3: extends
-    UC_MG_3.3 .u.> UC_MG_3: extends
+    UC_AL_1.1 .u.> UC_AL_1: extends
+    UC_AL_1.2 .u.> UC_AL_1: extends
+    UC_AL_1.3 .u.> UC_AL_1: extends
     
 @enduml
