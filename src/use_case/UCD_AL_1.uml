@@ -10,8 +10,8 @@
     actor "Аналітик" as Analyst #Red/Yellow
     Analyst -l-> UC_AL_1
     
-    usecase "<b>UC_AL_1.1</b>\nАналіз опитування" as UC_AL_1.1
-    usecase "<b>UC_AL_1.2</b>\nСтворення завдання" as UC_AL_1.2
+    usecase "<b>UC_AL_1.1</b>\nАналіз завдання" as UC_AL_1.1
+    usecase "<b>UC_AL_1.2</b>\nСтворення опитування" as UC_AL_1.2
     usecase "<b>UC_AL_1.3</b>\nВідправка опитування" as UC_AL_1.3
     
     UC_AL_1.1 .u.> UC_AL_1: extends
