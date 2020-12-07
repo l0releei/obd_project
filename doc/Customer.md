@@ -104,7 +104,7 @@
 
 **ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_СS_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_6.uml)
+![UC_СS_6](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_6.uml)
 
 
 
@@ -128,7 +128,7 @@
 
 **ОСНОВНИЙ СЦЕНАРІЙ:***
 
-![UC_СS_4](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_5.uml)
+![UC_СS_5](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/l0releei/obd_project/l0releei/src/use_case/Customer/UC_CS_5.uml)
 
 
 
