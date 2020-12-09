@@ -1,0 +1,25 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+
+|#Red/Yellow|Система| 
+
+start
+|Аналітик| 
+: Отримує повідомлення с документом про статистику 
+проходження опитування;
+
+: Аналізує відповіді;
+: Створює новий документ з детальним аналізом відповідей
+і відправляє його Менеджеру через розділ "Повідомлення";
+
+|#Red/Yellow|Система| 
+: Опрацьовує запит і надсилає повідомлення Менеджеру;
+stop;
+
+
+@enduml
