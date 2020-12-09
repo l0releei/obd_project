@@ -1,0 +1,28 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+
+|#Red/Yellow|Система| 
+
+start
+|Менеджер| 
+
+: Через деякий час, після опублікування,
+Менеджер на Головній Сторінці під потрібним опитуванням
+натискає "Отримати звіт";
+
+
+|#Red/Yellow|Система| 
+: Обробляє данні і відправляє форму зі статистикою
+проходження опитування(звіт);
+
+|Менеджер|
+: Отримує готовий звіт;
+stop;
+
+
+@enduml
