@@ -1,0 +1,21 @@
+@startuml
+    right header
+        <font size=24 color=black>Package:<b> UCD_2.5
+    end header
+
+    package UCD_AL_1 #Yellow {
+        usecase "<b>UC_6</b>\nРобота над опитуванням" as UC_AL_1 
+    }
+    
+    actor "Аналітик" as Analyst #Red/Yellow
+    Analyst -l-> UC_AL_1
+    
+    usecase "<b>UC_AL_1.1</b>\nАналіз завдання" as UC_AL_1.1
+    usecase "<b>UC_AL_1.2</b>\nСтворення опитування" as UC_AL_1.2
+    usecase "<b>UC_AL_1.3</b>\nВідправка опитування" as UC_AL_1.3
+    
+    UC_AL_1.1 .u.> UC_AL_1: extends
+    UC_AL_1.2 .u.> UC_AL_1: extends
+    UC_AL_1.3 .u.> UC_AL_1: extends
+    
+@enduml
