@@ -193,7 +193,7 @@ COMMIT;
 START TRANSACTION;
 USE `questionnaire`;
 INSERT INTO `questionnaire`.`question` (`id`, `text`, `survey_id`) VALUES (1, 'When he was born?', 1);
-INSERT INTO `questionnaire`.`question` (`id`, `text`, `survey_id`) VALUES (2, Which country is his home country?', 1);
+INSERT INTO `questionnaire`.`question` (`id`, `text`, `survey_id`) VALUES (2, 'Which country is his home country?', 1);
 INSERT INTO `questionnaire`.`question` (`id`, `text`, `survey_id`) VALUES (3, 'Death date', 2);
 INSERT INTO `questionnaire`.`question` (`id`, `text`, `survey_id`) VALUES (4, 'Did he have a wife?', 2);
 
