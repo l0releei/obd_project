@@ -1,0 +1,21 @@
+@startuml
+    right header
+        <font size=24 color=black>Package:<b> UCD_2.3
+    end header
+
+    package UCD_MG_2 #Yellow {
+        usecase "<b>UC_4</b>\nВзаємодія з Експертами" as UC_MG_2 
+    }
+    
+    actor "Менеджер" as Meneger #Red/Yellow
+    Meneger -l-> UC_MG_2
+    
+    usecase "<b>UC_MG_2.1</b>\nПоширення опитування\n серед Експертів" as UC_MG_2.1
+    usecase "<b>UC_MG_2.2</b>\nОтримання звіту\n по результатам" as UC_MG_2.2
+
+    
+    UC_MG_2.1 .u.> UC_MG_2: extends
+    UC_MG_2.2 .u.> UC_MG_2: extends
+
+    
+@enduml

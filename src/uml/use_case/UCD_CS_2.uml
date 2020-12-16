@@ -1,0 +1,21 @@
+@startuml
+    right header
+        <font size=24 color=black>Package:<b> UCD_2.1
+    end header
+
+    package UCD_CS_1.2 #Yellow {
+        usecase "<b>UC_2</b>\nКерування обліковим записом" as UC_CS_2 
+    }
+    
+    actor "Замовник" as Customer #Red/Yellow
+    Customer -l-> UC_CS_2
+    
+    usecase "<b>UC_CS_2.1</b>\nСтворення облікового запису" as UC_CS_2.1
+    usecase "<b>UC_CS_2.2</b>\nВидалення облікового запису" as UC_CS_2.2
+    usecase "<b>UC_CS_2.3</b>\nРедагування облікового запису" as UC_CS_2.3
+    
+    UC_CS_2.1 .u.> UC_CS_2: extends
+    UC_CS_2.2 .u.> UC_CS_2: extends
+    UC_CS_2.3 .u.> UC_CS_2: extends
+    
+@enduml

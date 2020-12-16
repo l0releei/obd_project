@@ -1,0 +1,31 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+
+|#Red/Yellow|Система| 
+
+start
+|Менеджер| 
+
+: Отримує повідомлення про отримання опитування;
+: В Особистому Кабінеті натискає на кнопку "Опитування"
+і під потрібним опитуванням натискає
+на кнопку "Опублікувати";
+
+|#Red/Yellow|Система| 
+: Обробляє данні і публікує 
+опитування на головній сторінці форуму;
+
+|Менеджер| 
+
+: Отримує повідомлення "Опубліковано";
+
+
+stop;
+
+
+@enduml

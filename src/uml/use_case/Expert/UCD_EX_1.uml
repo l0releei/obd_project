@@ -1,0 +1,34 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+
+|#Red/Yellow|Система| 
+
+start
+|Експерт| 
+: Отримав повідомлення із запрощенням на проходження
+опитування;
+
+: Проходить опитування;
+
+note right
+Можливе:
+    UCD_EX.ER.1.1
+end note
+
+: В кінці опитування натиснув "Завершити Опитування";
+
+|#Red/Yellow|Система| 
+: Опрацьовує і зберігає відповіді;
+
+|Експерт| 
+: Отримав повідомлення з подякую за проходження
+опитування;
+stop;
+
+
+@enduml

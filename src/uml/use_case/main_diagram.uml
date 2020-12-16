@@ -1,0 +1,32 @@
+@startuml
+  actor Експерт #Red/Yellow
+  actor Менеджер #Red/Yellow
+  actor Замовник #Red/Yellow
+  actor Аналітик #Red/Yellow
+  
+  usecase "<b>UCD_CS_1.1</b>\nВзаємодія з проєктом" as CS_1
+  usecase "<b>UCD_CS_1.2</b>\nКерування обліковим записом" as CS_2  
+  usecase "<b>UCD_MG_1.1</b>\nВзаємодія з Замовником" as MG_1
+  usecase "<b>UCD_MG_1.2</b>\nВзаємодія з Аналітиком" as MG_2
+  usecase "<b>UCD_MG_1.3</b>\nВзаємодія з Експертом" as MG_3
+  usecase "<b>UCD_EX_1</b>\nПроходження опитувань" as EX_1
+  usecase "<b>UCD_AL_1.1</b>\nРобота над опитуванням" as AL_1
+  usecase "<b>UCD_AL_1.2</b>\nАналіз результатів опитування" as AL_2  
+  
+  Замовник -r-|> Менеджер
+  Менеджер -u-|> Аналітик
+  Менеджер -u-|> Експерт
+  
+
+  Замовник -u-> CS_1
+  Замовник -l-> CS_2  
+  Менеджер -r-> MG_1
+  Менеджер -d-> MG_2
+  Менеджер -d-> MG_3
+  Експерт -u-> EX_1
+  Аналітик -u-> AL_1
+  Аналітик -u-> AL_2
+
+
+  
+@enduml

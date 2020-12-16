@@ -1,0 +1,26 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+
+
+|Аналітик| 
+start
+
+: Натиснув кнопку "Створити Опитування";
+
+: Заповнив анкету опитування і
+натиснув кнопку "Створити";
+note left
+Можливе:
+    UC_AL.ER.1.2
+end note
+|#Red/Yellow|Система| 
+: Опрацьовує запит і створює опитування;
+stop;
+
+
+@enduml

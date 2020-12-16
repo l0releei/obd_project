@@ -1,0 +1,25 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+
+|#Red/Yellow|Система| 
+
+start
+|Менеджер| 
+: Отримавши звіт, натискає у тому же вікні у верхньому правому кутку на 
+кнопку "Поділитися" і відправляє Аналітикам;
+
+|#Red/Yellow|Система|
+: Обробляє данні і відправляє документ;
+
+|Менеджер| 
+: Отримує повідомлення "Відправлено";
+
+stop;
+
+
+@enduml

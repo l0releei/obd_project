@@ -1,0 +1,30 @@
+@startuml
+skinparam ArchimateBackgroundColor #ffffff
+skinparam	shadowing false
+skinparam Note {
+	BackgroundColor #B43434
+	FontColor #ffffff
+}
+|#Red/Yellow|Система| 
+
+start
+|Замовник|
+: Отримує повідомлення про завершення проекту;
+note left
+	Можлива UC_CS.ER.1.3
+end note
+: Натискає кнопку в\n особистому кабінеті \n"Мої опитування --> Назва проекту";
+
+|#Red/Yellow|Система| 
+: Опрацьовує запит і повертає 
+форму з інформацією і аналізом
+про проект; 
+
+|Замовник|
+: Отримує необхідну інформацію;
+
+
+stop;
+
+
+@enduml
