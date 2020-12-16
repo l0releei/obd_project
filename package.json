@@ -1,7 +1,7 @@
 {
-    "name": "projects-lab",
+    "name": "questionnaire",
     "version": "1.0.0",
-    "description": "Projects Lab - platform which allow you easily manage your projects.",
+    "description": "questionnaire - platform which allow you to easily do any surveys.",
     "main": "index.js",
     "directories": {
         "doc": "docs",
