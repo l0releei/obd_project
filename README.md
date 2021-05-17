@@ -8,7 +8,7 @@
 ## Система організації та управління експертними опитуваннями
 
 ### Учасники
-
+👨‍💻
 🔸 Гладков Даніїл | Gmail: gladkovdaniil.kpi.io92@gmail.com  | Telegram: @skarsgardd |  <br />
 🔸 Карнаухова Анастасія | Gmail: anastasiz.bbq@gmail.com | Telegram: @YummySatan |  <br />
 🔸 Кушенко Сергій | Gmail: kushenkosergey111@gmail.com | Telegram: @kuvsh1nka |  <br />
